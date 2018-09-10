@@ -1,7 +1,6 @@
 var variables={
-  "name": "cen-mc-rc",
-  "version": "see URL",
-  "description": "API definition - Interaction between Machine Control and Reading Coding System - CEN/TS 16238",
+  "name": "API",
+  "description": "",
   "scripts": {
     "start": "apikana start src dist"
   },
@@ -15,3 +14,4 @@ var variables={
     "dist"
   ]
 }
+variables.version=window.location.href.match(/release\/(.*?)\//)[1]
